@@ -164,3 +164,55 @@ main > .section-services > .services-box > .box {
 main > .section-services > .services-box > .box > p {
     font-size: 1.5em;
 }
+
+main > .section-contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main > .section-contact > h1 {
+    color: #fff;
+    font-size: 4em;
+    font-weight: 600;
+}
+
+main > .section-contact > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.11);
+    padding: 2em;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+main > .section-contact > form > label {
+    font-size: 1.7em;
+    color: #fff;
+    margin-top: 30px;
+}
+
+main > .section-contact > form > input, textarea {
+    padding: 1em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 10px;
+    width: 50vh;
+}
+
+main > .section-contact > form > button {
+    padding: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    margin-top: 30px;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff6347, #1e90ff);
+}
+
