@@ -36,6 +36,7 @@ header {
 header > .logo > a {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 header > .logo > a > img {
@@ -90,7 +91,7 @@ main > .section-home > p {
 }
 
 main > .section-about {
-    height: 50vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,3 +127,40 @@ main > .section-about > .section-about-info > article > p {
     color: #fff;
 }
 
+main > .section-services {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main > .section-services > h1 {
+    color: #fff;
+    font-size: 4em;
+    font-weight: 600;
+}
+
+main > .section-services > .services-box {
+    display: flex;
+    gap: 2em;
+}
+
+main > .section-services > .services-box > .box {
+    height: 25vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #fff;
+    padding: 2em;
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+main > .section-services > .services-box > .box > p {
+    font-size: 1.5em;
+}
